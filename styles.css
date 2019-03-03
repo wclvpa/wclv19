@@ -1,3 +1,613 @@
 /*  Theme Name: WordCamp Lehigh Valley 2019    */
+/*  Based on the "Twenty Thirteen" theme    */
 
-body{background-color:purple;}
+/**
+ * 1.0 Reset - Modifications
+ * ----------------------------------------------------------------------------
+ */
+ 
+html,
+button,
+input,
+select,
+textarea {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+body {
+	color: #322924;
+}
+
+a {
+	color: #17779a;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #17779a;
+}
+
+a:active,
+a:hover {
+	color: #a69b31;
+}
+
+body {
+	color: #322924;
+	font-family: 'Oswald', Arial, sans-serif;
+	font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	font-family: 'Bevan', Bitter, Georgia, serif;
+	line-height: 1.3;
+}
+
+.wp-caption .wp-caption-text,
+.entry-caption,
+.gallery-caption {
+	color: #322924;
+}
+
+
+/**
+ * 2.0 Repeatable Patterns - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+/* Form fields, general styles first. */
+input,
+textarea {
+	color: #322924 !important;
+}
+
+/* Buttons */
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+	background: #17779a; /* Old browsers */
+	background: -webkit-linear-gradient(top, #17779a 0%, #1a88B0 100%); /* Chrome 10+, Safari 5.1+ */
+	background:   linear-gradient(to bottom, #17779a 0%, #1a88B0 100%); /* W3C */
+	border: none;
+	border-bottom: 3px solid #146684;
+	border-radius: 2px;
+	color: #fff !important;
+}
+
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus {
+	background: #1e99c6; /* Old browsers */
+	background: -webkit-linear-gradient(top, #1e99c6 0%, #21aadc 100%); /* Chrome 10+, Safari 5.1+ */
+	background:   linear-gradient(to bottom, #1e99c6 0%, #21aadc 100%); /* W3C */
+	border-bottom: 3px solid #1b88b0;
+}
+
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+input[type="reset"]:active {
+	background: #d3c96a; /* Old browsers */
+	background: -webkit-linear-gradient(top, #d3c96a 0%, #d9d07e 100%); /* Chrome 10+, Safari 5.1+ */
+	background:   linear-gradient(to bottom, #d3c96a 0%, #d9d07e 100%); /* W3C */
+	border: none;
+	border-top: 3px solid #c7bb43;
+}
+
+/* Images */
+.wp-caption .wp-caption-text,
+.entry-caption,
+.gallery-caption {
+	color: #322924;
+}
+
+
+/**
+ * 3.0 Basic Structure - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.site {
+	background-color: #f3f0ee;
+	border-left: 1px solid #e8e3df;
+	border-right: 1px solid #e8e3df;
+}
+
+
+/**
+ * 4.1 Site Header - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.site-header {
+	background: url(http://wclvpa-2019.local/wp-content/uploads/2019/03/WCLVPA-Skyline-Banner-Silhouette-and-Rays-FOR-DEVELOPMENT-USE-ONLY-1600x780.png) no-repeat scroll top center !important;
+	background-size: auto !important;
+}
+
+.site-header .home-link {
+	color: #322924;
+	display: block;
+	margin: 0 auto;
+	max-width: 1600px;
+	min-height: 780px;
+	padding: 0;
+	text-decoration: none;
+	width: 100%;
+}
+
+
+/**
+ * 4.2 Navigation - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.nav-menu li a {
+	color: #322924;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.nav-menu li:hover > a,
+.nav-menu li a:hover,
+.nav-menu li:focus > a,
+.nav-menu li a:focus {
+	background-color: #322924;
+	color: #d3c96a;
+}
+
+.nav-menu .sub-menu,
+.nav-menu .children {
+	background-color: #322924;
+}
+
+ul.nav-menu ul a,
+.nav-menu ul ul a {
+	color: #f3f0ee;
+}
+
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+ul.nav-menu ul a:focus,
+.nav-menu ul ul a:focus {
+	background-color: #17779a;
+}
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+	color: #17779a;
+}
+
+/* Navbar */
+.navbar {
+	background-color: #e8e3df;
+}
+
+
+/**
+ * 5.1 Entry Header - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-title a {
+	color: #322924;
+}
+
+.entry-title a:hover {
+	color: #17779a;
+}
+
+
+/**
+ * 5.2 Entry Meta - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-meta a {
+	color: #a69b31;
+}
+
+.entry-meta a:hover {
+	color: #17779a;
+}
+
+
+/**
+ * 5.3 Entry Content - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-content a,
+.comment-content a {
+	color: #17779a;
+}
+
+.entry-content a:hover,
+.comment-content a:hover {
+	color: #a69b31;
+}
+
+/* Page links */
+.format-status .entry-content .page-links a,
+.format-gallery .entry-content .page-links a,
+.format-chat .entry-content .page-links a,
+.format-quote .entry-content .page-links a,
+.page-links a {
+	background: #17779a;
+	border: 1px solid #17779a;
+	color: #fff;
+}
+
+.format-gallery .entry-content .page-links a:hover,
+.format-audio .entry-content .page-links a:hover,
+.format-status .entry-content .page-links a:hover,
+.format-video .entry-content .page-links a:hover,
+.format-chat .entry-content .page-links a:hover,
+.format-quote .entry-content .page-links a:hover,
+.page-links a:hover {
+	background: #fff;
+	color: #17779a;
+}
+
+/* Mediaelements */
+.hentry .mejs-mediaelement,
+.widget .mejs-mediaelement,
+.hentry .mejs-container .mejs-controls,
+.widget .mejs-container .mejs-controls {
+	background: #322924;
+}
+
+.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+.widget .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #17779a;
+}
+
+
+/**
+ * 5.5 Post Formats - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+/* Aside */
+.format-aside {
+	background-color: #322924;
+}
+
+/* Audio */
+.format-audio {
+	background-color: #17779a;
+}
+
+.format-audio .entry-content a,
+.format-audio .entry-meta a,
+.format-audio .entry-content a:hover,
+.format-audio .entry-meta a:hover {
+	color: #f3f0ee;
+}
+
+/* Chat */
+.format-chat {
+	background-color: #d3c96a
+}
+
+.format-chat .entry-meta a,
+.format-chat .entry-content a {
+	color: #322924;
+}
+
+.format-chat .chat .chat-timestamp {
+	color: #322924;
+}
+
+/* Gallery */
+.format-gallery {
+	background-color: #d3c96a;
+}
+
+.format-gallery .entry-meta a,
+.format-gallery .entry-content a {
+	color: #322924;
+}
+
+/* Link */
+.format-link {
+	background-color: #322924;
+}
+
+.format-link .entry-title {
+	color: #17779a;
+	display: inline;
+	font: 300 italic 20px 'Oswald', Helvetica, sans-serif;
+	margin-right: 20px;
+}
+
+.format-link .entry-title a {
+	color: #17779a;
+}
+
+/* Quote */
+.format-quote {
+	background-color: #322924;
+}
+
+.format-quote .entry-content,
+.format-quote .entry-meta {
+	color: #f3f0ee;
+}
+
+.format-quote .entry-content a,
+.format-quote .entry-meta a,
+.format-quote .linked {
+	color: #17779a;
+}
+
+/* Status */
+.format-status {
+	background-color: #322924;
+}
+
+.format-status .entry-content a {
+	color: #e8e3df;
+}
+
+.format-status .entry-meta a {
+	color: #f3f0ee;
+}
+
+/* Ensures the dots in the dot background are in lockstep. */
+.format-status .entry-content {
+	color: #f3f0ee;
+}
+
+/* Video */
+.format-video {
+	background-color: #17779a;
+}
+
+.format-video .entry-content a,
+.format-video .entry-meta a,
+.format-video .entry-content a:hover,
+.format-video .entry-meta a:hover {
+	color: #f3f0ee;
+}
+
+.format-video .entry-meta {
+	color: #322924;
+}
+
+
+/**
+ * 5.6 Attachments - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.attachment .hentry {
+	background-color: #a69b31;
+}
+
+.attachment .entry-title {
+	font: 300 italic 30px 'Oswald', Helvetica, sans-serif;
+}
+
+.attachment .entry-meta a,
+.attachment .entry-meta .edit-link:before,
+.attachment .full-size-link:before {
+	color: #17779a;
+}
+
+
+/**
+ * 5.7 Post/Paging Navigation - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.navigation a {
+	color: #17779a;
+}
+
+.navigation a:hover {
+	color: #a69b31;
+}
+
+.paging-navigation {
+	background-color: #322924;
+}
+
+.paging-navigation .meta-nav {
+	background-color: #e63f2a;
+}
+
+.paging-navigation a:hover .meta-nav {
+	background-color: #f3f0ee;
+}
+
+.post-navigation {
+	background-color: #e8e3df;
+	color: #17779a;
+}
+
+
+/**
+ * 5.8 Author Bio - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.single-format-status .author-description {
+	color: #f3f0ee;
+}
+
+.author-link {
+	color: #17779a;
+}
+
+
+/**
+ * 5.9 Archives - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.archive-header {
+	background-color: #a69b31;
+}
+
+.archive-title,
+.archive-meta {
+	font: 300 italic 30px 'Oswald', Helvetica, sans-serif;
+}
+
+
+/**
+ * 5.10 Search Results/No posts - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.page-header {
+	background-color: #ddd6d0;
+}
+
+.page-title {
+	font: 300 italic 30px 'Oswald', Helvetica, sans-serif;
+}
+
+
+/**
+ * 5.11 404 - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.error404 .page-header {
+	background-color: #e8e3df;
+}
+
+.error404 .page-title:before {
+	color: #17779a;
+}
+
+.error404 .page-wrapper {
+	background-color: #17779a;
+}
+
+
+/**
+ * 5.12 Comments - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.comments-title {
+	font: 300 italic 28px 'Oswald', Bitter, Georgia, serif;
+}
+
+.comment-author .fn,
+.comment-author .url,
+.comment-reply-link,
+.comment-reply-login {
+	color: #a69b31;
+}
+
+.comment-meta,
+.comment-meta a {
+	color: #a69b31;
+}
+
+.comment-meta a:hover {
+	color: #17779a;
+}
+
+.ping-meta {
+	color: #a69b31;
+}
+
+.comment-awaiting-moderation {
+	color: #a69b31;
+}
+
+/* Comment form */
+.comment-respond {
+	background-color: #f3f0ee;
+}
+
+.comment-reply-title {
+	font: 300 italic 28px 'Oswald', Bitter, Georgia, serif;
+}
+
+.comment-reply-title small a {
+	color: #322924;
+}
+
+.form-allowed-tags,
+.form-allowed-tags code {
+	color: #686758;
+}
+
+.no-comments {
+	background-color: #f3f0ee;
+}
+
+
+/**
+ * 6.1 Widgets - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.widget {
+	background-color: #e8e3df;
+}
+
+.widget .widget-title {
+	font: 300 italic 20px 'Oswald', Helvetica, sans-serif;
+}
+
+.widget a {
+	color: #17779a;
+}
+
+.widget a:hover {
+	color: #a69b31;
+}
+
+
+/**
+ * 7.0 Footer - Modifications
+ * ----------------------------------------------------------------------------
+ */
+
+.site-footer {
+	background-color: #322924;
+	color: #f3f0ee;
+}
+
+.site-footer a {
+	color: #d3c96a;
+}
+
+.site-footer .sidebar-container {
+	background-color: #322924;
+}
+
+.site-footer .widget {
+	color: #f3f0ee;
+}
+
+.site-footer .widget a {
+	color: #d3c96a;
+}
+
+.site-footer .widget-title,
+.site-footer .widget-title a,
+.site-footer .wp-caption-text {
+	font: 300 italic 20px 'Oswald', Bitter, Georgia, serif;
+	color: #f3f0ee;
+}
