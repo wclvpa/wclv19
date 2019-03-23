@@ -611,3 +611,20 @@ ul.nav-menu ul a:focus,
 	font: 300 italic 20px 'Oswald', Bitter, Georgia, serif;
 	color: #f3f0ee;
 }
+
+
+/**
+ * Custom Styles
+ * ----------------------------------------------------------------------------
+ */
+ 
+ .columns-cta {
+ 	background-color: #e8e3df;
+ 	padding-top: 20px;
+ }
+ 
+ .columns-levels {
+ 	background-color: #e8e3df;
+ 	padding-top: 20px;
+ 	padding-left: 30px;
+ }
