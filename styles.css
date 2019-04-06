@@ -55,6 +55,9 @@ h6 {
 	color: #322924;
 }
 
+figcaption, [class^="wp-block-"] figcaption.editor-rich-text__tinymce.mce-content-body {
+   font-size: 14px !important;
+}
 
 /**
  * 2.0 Repeatable Patterns - Modifications
@@ -132,7 +135,7 @@ input[type="reset"]:active {
  */
 
 .site-header {
-	background: url(https://2019.lehighvalley.wordcamp.org/files/2019/03/WCLVPA-Skyline-Banner-Silhouette-and-Rays-FOR-DEVELOPMENT-USE-ONLY-1600x780.png) no-repeat scroll top center !important;
+	background: url(http://wclvpa-2019.local/wp-content/uploads/2019/03/WCLVPA-Skyline-Banner-Silhouette-and-Rays-FOR-DEVELOPMENT-USE-ONLY-1600x780.png) no-repeat scroll top center !important;
 	background-size: auto !important;
 }
 
@@ -617,7 +620,58 @@ ul.nav-menu ul a:focus,
  * Custom Styles
  * ----------------------------------------------------------------------------
  */
- 
+
+/** Header graphics */
+
+body .site-header {
+	background-image: url('https://2019.lehighvalley.wordcamp.org/files/2019/04/WCLVPA19-Sunburst.png'), url('https://2019.lehighvalley.wordcamp.org/files/2019/04/WCLVPA19-Skyline-Silhouette.png');
+	background-position: center bottom 25px, center center;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 100%, cover;
+}
+
+.site-title, .site-description {
+	display: none;
+}
+
+.site-header .home-link {
+	max-width: 1080px;
+	min-height: 260px;
+	background: url('https://2019.lehighvalley.wordcamp.org/files/2019/04/wclvpa-19-logo2.png') no-repeat center center;
+	background-size: 200px;
+}
+
+.home .site-header .home-link {
+	max-width: 1080px;
+	min-height: 600px;
+	background: url('https://2019.lehighvalley.wordcamp.org/files/2019/04/wclvpa-19-logo2.png') no-repeat center center;
+	background-size: 400px;
+}
+
+.navbar {
+	background-color: #f7f5e7;
+	margin: -20px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+	.home .site-header .home-link {
+		min-height: 290px;
+		background-size: 200px;
+	}
+}
+
+@media screen and (max-width: 468px) {
+	body .site-header {
+		background-size: cover;
+	}
+	
+	.home .site-header .home-link {
+		min-height: 200px;
+		background-size: 150px;
+	}
+}
+
+/** Home Page content */ 
  .columns-cta {
  	background-color: #e8e3df;
  	padding-top: 20px;
@@ -628,3 +682,37 @@ ul.nav-menu ul a:focus,
  	padding-top: 20px;
  	padding-left: 30px;
  }
+ 
+ /** Organizers */
+ .wcorg-organizer-description img {
+	margin: 15px 15px 0 0;
+	float: left;
+}
+
+.wcorg-organizer-description h3 {
+	display: inline;
+	font-size: 18px;
+	line-height: 1.8em;
+}
+
+.wcorg-organizer-description p {
+	margin: 0 0 14px;
+}
+
+.wcorg-organizer h2 {
+	font-size: 30px;
+	margin: 45px 0 15px;
+}
+ 
+ /** Sponsors */ 
+ #wcb_sponsors-2 .sponsor-level.silver,#wcb_sponsors-2 .sponsor-level.bronze {
+	display: none;
+}
+
+#wcb_sponsors-3 .sponsor-level.gold,#wcb_sponsors-3 .sponsor-level.bronze {
+	display: none;
+}
+
+#wcb_sponsors-4 .sponsor-level.gold,#wcb_sponsors-4 .sponsor-level.silver {
+	display: none;
+}
