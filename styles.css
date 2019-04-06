@@ -599,56 +599,6 @@ ul.nav-menu ul a:focus,
  * ----------------------------------------------------------------------------
  */
 
-/** Header graphics */
-
-body .site-header {
-	background-image: url('https://2019.lehighvalley.wordcamp.org/files/2019/04/WCLVPA19-Sunburst.png'), url('https://2019.lehighvalley.wordcamp.org/files/2019/04/WCLVPA19-Skyline-Silhouette.png');
-	background-position: center bottom 25px, center center;
-	background-repeat: no-repeat, no-repeat;
-	background-size: 100%, cover;
-}
-
-.site-title, .site-description {
-	display: none;
-}
-
-.site-header .home-link {
-	max-width: 1080px;
-	min-height: 260px;
-	background: url('https://2019.lehighvalley.wordcamp.org/files/2019/04/wclvpa-19-logo2.png') no-repeat center center;
-	background-size: 200px;
-}
-
-.home .site-header .home-link {
-	max-width: 1080px;
-	min-height: 600px;
-	background: url('https://2019.lehighvalley.wordcamp.org/files/2019/04/wclvpa-19-logo2.png') no-repeat center center;
-	background-size: 400px;
-}
-
-.navbar {
-	background-color: #f7f5e7;
-	margin: -20px auto 0;
-}
-
-@media screen and (max-width: 768px) {
-	.home .site-header .home-link {
-		min-height: 290px;
-		background-size: 200px;
-	}
-}
-
-@media screen and (max-width: 468px) {
-	body .site-header {
-		background-size: cover;
-	}
-	
-	.home .site-header .home-link {
-		min-height: 200px;
-		background-size: 150px;
-	}
-}
-
 /** Home Page content */ 
  .columns-cta {
  	background-color: #e8e3df;
