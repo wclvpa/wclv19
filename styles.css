@@ -130,23 +130,6 @@ input[type="reset"]:active {
 
 
 /**
- * 4.1 Site Header - Modifications
- * ----------------------------------------------------------------------------
- */
-
-.site-header .home-link {
-	color: #322924;
-	display: block;
-	margin: 0 auto;
-	max-width: 1600px;
-	min-height: 780px;
-	padding: 0;
-	text-decoration: none;
-	width: 100%;
-}
-
-
-/**
  * 4.2 Navigation - Modifications
  * ----------------------------------------------------------------------------
  */
