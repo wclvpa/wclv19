@@ -566,31 +566,31 @@ ul.nav-menu ul a:focus,
  */
 
 .site-footer {
-	background-color: #322924;
-	color: #f3f0ee;
+	background-color: #d3c96a;
+	color: #17779a;
 }
 
 .site-footer a {
-	color: #d3c96a;
+	color: #322924;
 }
 
 .site-footer .sidebar-container {
-	background-color: #322924;
+	background-color: #d3c96a;
 }
 
 .site-footer .widget {
-	color: #f3f0ee;
+	color: #d3c96a;
 }
 
 .site-footer .widget a {
-	color: #d3c96a;
+	color: #322924;
 }
 
 .site-footer .widget-title,
 .site-footer .widget-title a,
 .site-footer .wp-caption-text {
 	font: 300 italic 20px 'Oswald', Bitter, Georgia, serif;
-	color: #f3f0ee;
+	color: #17779a;
 }
 
 
