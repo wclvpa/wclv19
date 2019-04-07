@@ -81,7 +81,7 @@ input[type="reset"] {
 	border: none;
 	border-bottom: 3px solid #146684;
 	border-radius: 2px;
-	color: #fff !important;
+	color: #fff;
 }
 
 button:hover,
