@@ -566,7 +566,7 @@ ul.nav-menu ul a:focus,
  */
 
 .site-footer {
-	background-color: #d3c96a;
+	background-color: #e8e3df;
 	color: #17779a;
 }
 
@@ -575,15 +575,20 @@ ul.nav-menu ul a:focus,
 }
 
 .site-footer .sidebar-container {
-	background-color: #d3c96a;
+	background-color: #e8e3df;
 }
 
 .site-footer .widget {
-	color: #d3c96a;
+	color: #e8e3df;
 }
 
 .site-footer .widget a {
 	color: #322924;
+}
+
+.site-footer .widget h4 {
+	color: #17779a;
+	font-size: 28px;
 }
 
 .site-footer .widget-title,
