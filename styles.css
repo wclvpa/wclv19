@@ -638,11 +638,11 @@ ul.nav-menu ul a:focus,
 }
  
  /** Sponsors */ 
- #wcb_sponsors-2 .sponsor-level.silver,#wcb_sponsors-2 .sponsor-level.bronze {
+ #wcb_sponsors-2 .sponsor-level.silver,#wcb_sponsors-2 .sponsor-level.bronze,#wcb_sponsors-2 .sponsor-level.in-kind {
 	display: none;
 }
 
-#wcb_sponsors-3 .sponsor-level.gold,#wcb_sponsors-3 .sponsor-level.bronze {
+#wcb_sponsors-3 .sponsor-level.gold,#wcb_sponsors-3 .sponsor-level.bronze,#wcb_sponsors-3 .sponsor-level.in-kind {
 	display: none;
 }
 
